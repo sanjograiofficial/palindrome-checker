@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main{
+    padding: 1rem;
+    max-width: 40vw;
+    height: 200px;
+    background-color: green;
+    text-align: center;
+  }
+  
+  button{
+    padding: 0.3rem;
+    background-color: #02a02a;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #00aabb;
+  }
+  button:active{
+    background-color: #aabbcc;
+  }
+  #result{
+    border: 1px solid black;
+  }
